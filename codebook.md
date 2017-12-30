@@ -21,7 +21,21 @@ g.) features.txt  : List of all features.
 f.) subject_train.txt  : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
  
 
-Transformation applied to Data
+Transformation applied to Data:
+
+1.) Added Activity_labels & Subject information to the Test & Train Datasets.
+
+2.) Converted Activity_labels from numbers to actual activity name.For eg. Activity_name -> 1 converted to "Walking".
+
+3.) After applying above transformations, Training & Test datasets were merged.
+
+4.) Columns containing Measured Mean and Standard Deviations were selected.
+
+5.) Finally,a  tidy dataset created with summarized information for all subjects and all activities.
+
+6.) The end result is shown in the file tidy.txt
+
+
 
 
 
